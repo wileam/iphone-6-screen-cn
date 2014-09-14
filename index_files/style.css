@@ -17,6 +17,7 @@ a
 {
     text-decoration: none;
     color: red;
+    cursor: pointer;
 }
 
 *
@@ -103,7 +104,7 @@ pre.code .string
 
 img.retinaVersion
 {
-	display: none !important; 
+	display: none !important;
 }
 
 
@@ -123,21 +124,21 @@ hr.entries_separator
     margin-bottom: 40px;
 }
 
-*::-webkit-input-placeholder 
+*::-webkit-input-placeholder
 {
     color: rgba(255, 255, 255, 0.4);
 }
-*:-moz-placeholder 
+*:-moz-placeholder
 {
     /* FF 4-18 */
     color: rgba(255, 255, 255, 0.4);
 }
-*::-moz-placeholder 
+*::-moz-placeholder
 {
     /* FF 19+ */
     color: rgba(255, 255, 255, 0.4);
 }
-*:-ms-input-placeholder 
+*:-ms-input-placeholder
 {
     /* IE 10+ */
     color: rgba(255, 255, 255, 0.4);
@@ -160,7 +161,7 @@ a.button
     font-family: "AvenirNextLTW01-Medium";
 /*    padding: 8px 0;*/
     vertical-align: middle;
-    
+
     -webkit-transition: background-color 0.15s ease-in-out;
     -moz-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
@@ -247,7 +248,7 @@ div#overlay.shown
     opacity: 1;
     z-index: 5;
 }
-    
+
 #top_buttons
 {
 	top: 50px;
@@ -267,7 +268,7 @@ div.popover
     transform: scale(0);
     transition: transform 0.3s;
 	transition-delay: 0;
-	
+
     -webkit-transform-origin: 50% 100%;
     -webkit-transform: scale(0);
     -webkit-transition: -webkit-transform 0.3s;
@@ -332,7 +333,7 @@ div#buy_popover
     left: 510px;
     width: 225px;
     height: 186px;
-    background: none;    
+    background: none;
 }
 
 
@@ -396,7 +397,7 @@ div#try_popover div.bubble
 div#try_popover p.email_error
 {
     text-align: left;
-    position: relative; 
+    position: relative;
     left: 31px;
     top: -4px;
     display: none;
@@ -411,7 +412,7 @@ div#try_popover
     left: 210px;
     width: 460px;
     height: 146px;
-    background: none;    
+    background: none;
 }
 
 div#try_popover p
@@ -482,12 +483,12 @@ div#try_popover_page2
 
 div#try_popover.popover div.bubble div#try_popover_page2 p.note
 {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     font-size: 12px;
 }
 
-div#try_popover_page2 p a 
+div#try_popover_page2 p a
 {
     color: rgb(33, 163, 228);
     transition: color 0.08s ease-in-out 0s;
@@ -571,12 +572,12 @@ div#news_buy_section a#buy_button_news
 div#news_buy_section a#buy_button_news:hover
 {
     opacity: 0.7;
-    color: white;    
+    color: white;
 }
 
 div#news_buy_section a#buy_button_news
 {
-    
+
 }
 
 
@@ -649,7 +650,7 @@ header.fixed
 	top: 0;
 	z-index: 90;
 	background-color: rgba(255, 255, 255, 0.96);
-    border-bottom: 1px rgba(0,0,0,0.1) solid;   
+    border-bottom: 1px rgba(0,0,0,0.1) solid;
 }
 
 div.behind_fixed_header
@@ -720,7 +721,7 @@ header a.social_button img
     margin-top: 25px;
     width: 30px;
     height: 30px;
-    vertical-align: top;   
+    vertical-align: top;
     -webkit-transition: opacity 0.15s ease-in-out;
     -moz-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
@@ -746,7 +747,7 @@ header div.twitter-share-button
 
 header div.twitter-share-button a
 {
-    color: black;   
+    color: black;
 }
 
 
@@ -756,7 +757,7 @@ header div.twitter-share-button a
 section.interactive_screenshot
 {
     margin-top: 0;
-    background: url(../images/title_background.jpg) repeat-x 50% 0px; 
+    background: url(../images/title_background.jpg) repeat-x 50% 0px;
     background-size: cover;
     height: 620px;
     width: 100%;
@@ -994,7 +995,7 @@ section div.box2x1
     height: 380px;
     float: left;
     margin: 0px 19px 40px 0;
-    
+
 }
 
 
@@ -1098,7 +1099,7 @@ section.customers img
     margin-left: 20px;
     padding: 0;
     border: 0;
-    
+
 }
 
 /* *****************   SECTIONS -> INTERESTED   **************** */
@@ -1106,7 +1107,7 @@ section.customers img
 
 section.interested h2
 {
-    margin-top: 110px;   
+    margin-top: 110px;
 }
 
 /* *****************   SECTIONS -> BOTTOM BANNER   **************** */
@@ -1125,7 +1126,7 @@ section.bottom_banner > div
 {
     margin: 0 auto;
     padding: 0;
-    width: 1060px;    
+    width: 1060px;
 }
 
 section.bottom_banner > div *
@@ -1155,7 +1156,7 @@ section.bottom_banner form input[type=email]
     font-size: 18px;
     font-family: "AvenirNextLTW01-Medium";
     color: rgba(255, 255, 255, 0.9);
-    background: none;   
+    background: none;
     border: 1px solid rgba(255, 255, 255, 0.886);
     padding: 4px;
 }
@@ -1192,7 +1193,7 @@ section.bottom_banner div.follow
     font-size: 25px;
     font-family: "AvenirNextLTW01-Regular";
     color: rgba(255, 255, 255, 0.886);
-    
+
 }
 
 
@@ -1354,7 +1355,7 @@ section.support div.content > p
 
 section.support div.content > p:first-child
 {
-    margin-top: 0;   
+    margin-top: 0;
 }
 
 section.support img
@@ -1364,7 +1365,7 @@ section.support img
     vertical-align: middle;
     margin-right: 22px;
 }
-    
+
 section.support div.links
 {
     padding-top: 10px;
@@ -1482,10 +1483,10 @@ article blockquote.big
     padding: 4px 20px 4px 30px;
     font-size: 28px;
     color: rgb(33, 163, 228);
-    
-    
- 
-    
+
+
+
+
 }
 
 article blockquote
@@ -1559,7 +1560,7 @@ section.documentation nav.main
 {
     width: 340px;
     float: left;
-/*    
+/*
     position: absolute;
     top: 120px;
     display: block;
@@ -1681,7 +1682,7 @@ section.documentation h3
 
 section.documentation img.full
 {
-    width: 700px;   
+    width: 700px;
 }
 
 section.documentation blockquote
@@ -1731,7 +1732,7 @@ section.documentation nav.prev_next a
     transition: color 0.15s ease-in-out;
 }
 
-	
+
 section.documentation nav.prev_next a:hover
 {
 	color: rgb(110, 207, 255);
@@ -1749,7 +1750,7 @@ section.documentation nav.prev_next a.next
     background: url(../images/arrow_next_big.svg) no-repeat 100% 50%;
     padding-right: 40px;
     text-align: right;
-    float: right;    
+    float: right;
 }
 
 
@@ -1774,15 +1775,15 @@ section.examples div.box2x1 span.number
     display: inline-block;
     border: 1px solid rgb(33, 163, 228);
     color: rgb(33, 163, 228);
-    padding: 0; margin: 0; 
+    padding: 0; margin: 0;
     height: 30px;
-    vertical-align: middle; 
+    vertical-align: middle;
     line-height: 30px;
-    width: 30px; 
-    border-radius: 16px; 
+    width: 30px;
+    border-radius: 16px;
     text-align: center;
 }
-                    
+
 
 
 section.examples div.box2x1 h3
@@ -1801,7 +1802,7 @@ section.examples p.example-description
 
 section.examples a.download:hover
 {
-   background-color: rgba(33, 163, 228, 0.15); 
+   background-color: rgba(33, 163, 228, 0.15);
 }
 
 
@@ -1821,14 +1822,14 @@ section.examples a.download
        -moz-border-radius: 6.5px 6.5px 6.5px 6.5px;
             border-radius: 6.5px 6.5px 6.5px 6.5px;
     font-family: "AvenirNextLTW01-Regular";
-    
+
     background-color: rgba(33, 163, 228, 0);
-    
+
     -webkit-transition: background-color 0.15s ease-in-out;
     -moz-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
-    
-    
+
+
 }
 
 section.examples div.box2x1 h3, section.examples div.box2x1 p
@@ -1863,11 +1864,11 @@ section.examples a.example-thumbnail > img
 
     opacity: 1;
 
-/*  
+/*
 width: 150px;
     top: 60px;
     left: 100px;
-    
+
     */
     z-index: 80;
 }
@@ -1877,12 +1878,12 @@ section.examples a.example-thumbnail div, section.examples a.example-thumbnail >
     -webkit-transition: opacity 0.15s ease-in-out;
     -moz-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
-       
+
 }
 
 section.examples a.example-thumbnail
 {
-    background-color: black;   
+    background-color: black;
 }
 
 section.examples a.example-thumbnail div
@@ -1917,7 +1918,7 @@ section div img
        only screen and (-o-min-device-pixel-ratio: 2/1),
        only screen and (min-device-pixel-ratio: 2),
        only screen and (min-resolution: 2dppx) {
-       	   
+
 	img.retinaVersion
 	{
 		display: block !important;
@@ -1936,9 +1937,9 @@ section div img
     {
         position: static !important;
         z-index: 90;
-    }    
-    
-    div.behind_fixed_header   
+    }
+
+    div.behind_fixed_header
     {
         display: none;
     }
