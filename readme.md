@@ -1,4 +1,4 @@
-# iPhone 6 屏幕详解
+# iPhone 6 屏幕揭秘
 
 见：http://wileam.com/iphone-6-screen-cn/
 
