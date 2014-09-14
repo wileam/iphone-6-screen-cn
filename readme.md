@@ -1,6 +1,6 @@
 # iPhone 6 屏幕详解
 
-见：[http://wileam.com/iphone-6-screen-cn/](http://wileam.com/iphone-6-screen-cn/)
+见：http://wileam.com/iphone-6-screen-cn/
 
 来源：http://www.paintcodeapp.com/news/iphone-6-screens-demystified
 
