@@ -1,0 +1,208 @@
+section.interactive_screenshot #screenshot
+{
+	height: 360px;
+	width: 700px;
+	position: absolute;
+	left: 180px;
+	top: 0px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	
+    -webkit-box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.386);
+       -moz-box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.386);
+            box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.386);
+    background-image: url(/images/paintcode_2x_quarter.png);
+
+}
+
+.banner_container
+{
+	position: relative;
+}
+      
+.infobox
+{
+	height: 90px;
+	text-align: right;
+	position: absolute;
+	width: 500px;
+	top: 0px;
+}
+
+.infobox.left
+{
+	text-align: right;
+}
+
+.infobox.right
+{
+	right: 0px;
+	text-align: left;
+}
+
+.infobox.right > .infobox_title, .infobox.right > .infobox_description
+{
+	right: 0px;
+}
+
+.infobox.right > .infobox_line
+{
+	right: 166px;
+	left: 6px;
+}
+
+.infobox.right > .infobox_dot { left: -6px; }
+
+.infobox.right > .infobox_pulse { left: -15px; }
+
+.infobox.active > .infobox_title { opacity: 1; }
+
+.infobox.active > .infobox_description
+{
+	opacity: 1;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.infobox.active > .infobox_line { opacity: 1; }
+
+.infobox.active.left > .infobox_line
+{
+	background: url('../images/infodot.png') no-repeat 0% 0,
+				url('../images/infoline.png') repeat-x 0 0;
+}
+
+.infobox.active.right > .infobox_line
+{
+	background: url('../images/infodot.png') no-repeat 100% 0,
+				url('../images/infoline.png') repeat-x 100% 0;
+}
+
+.infobox_title
+{
+	position: absolute;
+	width: 160px;
+	height: 20px;
+	font-size: 16px;
+	font-family: "Avenir Next LT W01 Demi";
+	color: rgba(255, 255, 255, 0.92);
+	opacity: 0;
+	
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.infobox_line
+{
+	position: absolute;
+	height: 20px;
+	left: 166px;
+	right: 6px;
+	top: 0px;
+	opacity: 0;
+	
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.infobox_description
+{
+	position: absolute;
+	width: 160px;
+	height: 70px;
+	top: 20px;
+	font-size: 12px;
+    font-family: "AvenirNextLTW01-Regular";
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.92);
+	opacity: 0;
+	
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.infobox_dot
+{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: -5px;
+	right: -5px;
+	background:	url('../images/infodot.png') no-repeat 50% 50%;
+}
+
+.infobox_pulse
+{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	top: -14px;
+	right: -14px;
+	
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+            
+    border: 5px solid orange;
+            
+	opacity: 0;
+	
+	-webkit-transform: scale(0);
+	transform: scale(0);
+
+    -webkit-animation: infobox_pulse_animation 2s ease-out 0s infinite;
+	animation: infobox_pulse_animation 2s ease-out 0s infinite;
+}
+
+
+@-webkit-keyframes infobox_pulse_animation
+{
+	0%   {-webkit-transform: scale(0.25); opacity: 1; }
+	30%  {-webkit-transform: scale(1); opacity: 0; }
+	100% {-webkit-transform: scale(1); opacity: 0; }
+}
+
+@keyframes infobox_pulse_animation
+{
+	0%   {transform: scale(0.25); opacity: 1; }
+	30%  {transform: scale(1); opacity: 0; }
+	100% {transform: scale(1); opacity: 0; }
+}
+      
+#infobox_tools { top: 10px; width: 210px; }
+#infobox_stylekit { top: 35px; width: 327px; }
+#infobox_library { top: 100px; width: 255px; }
+#infobox_variables { top: 290px; width: 255px; }
+#infobox_transforms { top: 213px; width: 252px; }
+#infobox_codegen { top: 290px; width: 350px; }
+#infobox_multicanvas { top: 52px; width: 445px; }
+
+#infobox_tools > .infobox_pulse { -webkit-animation-delay: 0.8s; animation-delay: 0.8s; }
+#infobox_stylekit > .infobox_pulse { -webkit-animation-delay: 1.2s; animation-delay: 1.2s; }
+#infobox_library > .infobox_pulse { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }
+#infobox_variables > .infobox_pulse { -webkit-animation-delay: 0.6s; animation-delay: 0.6s; }
+#infobox_transforms > .infobox_pulse { -webkit-animation-delay: 1.0s; animation-delay: 1.0s; }
+#infobox_codegen > .infobox_pulse { -webkit-animation-delay: 0.0s; animation-delay: 0.0s; }
+#infobox_multicanvas > .infobox_pulse { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 2dppx) {
+
+    section.interactive_screenshot div#screenshot
+    {
+        background-image: url(../images/paintcode_2x_half.png);
+    }
+           
+           
+}

@@ -1,0 +1,94 @@
+#illustration_variables .variable_field_manipulated
+{
+	fill: rgba(235, 0, 56, 0.1);
+}
+
+#illustration_variables .presented .variable_field_manipulated
+{
+	fill: rgba(235, 0, 56, 0.1);
+}
+      
+#illustration_variables .presented path,
+#illustration_variables .presented rect
+{
+	stroke: rgba(235, 0, 56, 1);
+}
+
+#illustration_variables .presented circle,
+#illustration_variables .presented text
+{
+	fill: rgba(235, 0, 56, 1);
+}
+
+#illustration_variables #fieldCheckbox,
+#illustration_variables #fieldTickmark
+{
+	cursor: pointer;
+}
+
+#illustration_variables #fieldAngle,
+#illustration_variables #fieldRadius,
+#illustration_variables #fieldTitle
+{
+	cursor: ns-resize;
+}
+
+#illustration_variables .presented #fieldAngle:hover,
+#illustration_variables .presented #fieldRadius:hover,
+#illustration_variables .presented #fieldTitle:hover,
+#illustration_variables .presented #fieldCheckbox:hover
+{
+	fill: rgba(235, 0, 56, 0.1);
+}
+
+#illustration_variables #fieldAngle:hover,
+#illustration_variables #fieldRadius:hover,
+#illustration_variables #fieldTitle:hover,
+#illustration_variables #fieldCheckbox:hover
+{
+	fill: rgba(40, 124, 220, 0.1);
+}
+
+#illustration_variables
+{
+	pointer-events: all;
+}
+
+
+
+#illustration_variables
+{
+	user-select: none;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+#illustration_variables text
+{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   
+   cursor: default;
+   
+   pointer-events: none;
+}
+
+#illustration_variables tspan
+{
+	pointer-events: none;
+}
+
+#illustration_variables #fieldTickmark
+{
+	pointer-events: none;
+}
+
+#illustration_variables text
+{
+	font-family: "AvenirNextLTW01-Medium";
+}
