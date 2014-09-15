@@ -7,7 +7,7 @@ Secondary stroke color, button color, link color: rgb(33, 163, 228) rgb(33, 163,
 
 body
 {
-    font-family: AvenirNext-Medium, "Avenir Next", sans-serif;
+    font-family: Arial, AvenirNext-Medium, "Avenir Next", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", sans-serif;
     margin: 0;
     padding: 0;
     font-size: 22px;
@@ -40,7 +40,7 @@ p, ul, ol, blockquote
 
 h2
 {
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 50px;
     line-height: 80px;
     text-align: center;
@@ -56,7 +56,7 @@ h3
     text-align: center;
     line-height: 40px;
     font-size: 16px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     vertical-align: middle;
     color: #464A50;
 }
@@ -158,7 +158,7 @@ a.button
     font-size: 18px;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 /*    padding: 8px 0;*/
     vertical-align: middle;
 
@@ -200,7 +200,7 @@ a.regular_button
     -webkit-border-radius: 6.5px 6.5px 6.5px 6.5px;
        -moz-border-radius: 6.5px 6.5px 6.5px 6.5px;
             border-radius: 6.5px 6.5px 6.5px 6.5px;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 a.medium_button
@@ -210,7 +210,7 @@ a.medium_button
     -webkit-border-radius: 7px 7px 7px 7px;
        -moz-border-radius: 7px 7px 7px 7px;
             border-radius: 7px 7px 7px 7px;
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 a.demi_button
@@ -219,7 +219,7 @@ a.demi_button
     -webkit-border-radius: 7px 7px 7px 7px;
        -moz-border-radius: 7px 7px 7px 7px;
             border-radius: 7px 7px 7px 7px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 
@@ -379,7 +379,7 @@ div#buy_popover a.directly
             border-radius: 6px 6px 6px 6px;
     top: 100px;
     background: rgb(65, 188, 87);
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     color: white;
     font-size: 16px;
     line-height: 40px;
@@ -418,7 +418,7 @@ div#try_popover
 div#try_popover p
 {
     color: #8D949F;
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 div#try_popover p.header
@@ -453,7 +453,7 @@ div#try_popover input[type=submit]
        -moz-border-radius: 6px 6px 6px 6px;
             border-radius: 6px 6px 6px 6px;
     background: rgb(65, 188, 87);
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     color: white;
     width: 100px;
     height: 39px;
@@ -510,7 +510,7 @@ div#try_popover_page2 ul
 
 div#try_popover_page2 ul li
 {
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 12px;
     margin-bottom: 0;
     list-style: none;
@@ -691,7 +691,7 @@ header nav ul li:first-child
 header nav a
 {
 	color: #8D949F;
-	font-family: "AvenirNextLTW01-Medium";
+	font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     -webkit-transition: color 0.15s ease-in-out;
     -moz-transition: color 0.15s ease-in-out;
     transition: color 0.15s ease-in-out;
@@ -927,7 +927,7 @@ p.bullet_header
     display: inline-block;
     width: 519px;
     height: 40px;
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     line-height: 40px;
     vertical-align: middle;
     font-size: 25px;
@@ -946,7 +946,7 @@ p.bullet_text
     display: inline-block;
     width: 519px;
     height: 60px;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     vertical-align: middle;
     font-size: 20px;
     margin: 0 0 20px 0;
@@ -961,7 +961,7 @@ p.bullet_text a
     -webkit-transition: color 0.08s ease-in-out;
     -moz-transition: color 0.08s ease-in-out;
     transition: color 0.08s ease-in-out;
-	font-family: "AvenirNextLTW01-Medium";
+	font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 p.bullet_text a:hover
@@ -1011,7 +1011,7 @@ section div.box2x1 h3
     line-height: 40px;
     margin: 0;
     padding: 0;
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     text-align: left;
     font-size: 25px;
     color: #464A50;
@@ -1021,7 +1021,7 @@ section div.box2x1 p
 {
     margin: 0;
     padding: 0;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     text-align: left;
     font-size: 20px;
     color: #8D949F;
@@ -1066,7 +1066,7 @@ div.referral p.text
 {
     color: #8D949F;
     font-size: 16px;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     height: 80px;
     line-height: 25px;
 }
@@ -1074,7 +1074,7 @@ div.referral p.text
 div.referral p.name
 {
     font-size: 20px;
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     line-height: 40px;
     height: 40px;
     vertical-align: middle;
@@ -1141,7 +1141,7 @@ section.bottom_banner form label
     margin: 0 20px 0 0;
     text-align: right;
     font-size: 25px;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     vertical-align: middle;
 /*    height: 40px;
     line-height: 40px;*/
@@ -1154,7 +1154,7 @@ section.bottom_banner form input[type=email]
     height: 40px;
     margin: 0 26px 0 0;
     font-size: 18px;
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     color: rgba(255, 255, 255, 0.9);
     background: none;
     border: 1px solid rgba(255, 255, 255, 0.886);
@@ -1167,7 +1167,7 @@ section.bottom_banner form input[type=submit]
     height: 40px;
     background: none;
     font-size: 18px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.886);
     -webkit-border-radius: 7px 7px 7px 7px;
@@ -1191,7 +1191,7 @@ section.bottom_banner div.follow
     vertical-align: middle;
     text-align: right;
     font-size: 25px;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     color: rgba(255, 255, 255, 0.886);
 
 }
@@ -1234,7 +1234,7 @@ footer div.copyright
     line-height: 40px;
     vertical-align: middle;
     color: rgb(184, 184, 184);
-    font-family: "AvenirNextLTW01-Medium";
+    font-family: "AvenirNextLTW01-Medium","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 footer div.copyright a
@@ -1328,7 +1328,7 @@ section.support div.title
     display: inline-block;
     width: 340px;
     text-align: right;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 32px;
 }
 
@@ -1338,7 +1338,7 @@ section.support div.content
     vertical-align: top;
     width: 520px;
     text-align: left;
-    font-family: "FreightText Book";
+    font-family: "FreightText Book","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     margin: 0 0 0 20px;
 }
 
@@ -1409,7 +1409,7 @@ article h2
     margin-bottom: 20px;
     font-size: 35px;
     line-height: 50px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     text-align: left;
     color: #464A50;
 }
@@ -1424,7 +1424,7 @@ article h3
     width: 700px;
     margin: 40px 180px 0px 180px;
     line-height: 40px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 25px;
     text-align: left;
 }
@@ -1455,7 +1455,7 @@ article p, article ul, article ol
 {
     margin: 0px 180px 20px 180px;
     padding: 6px 0;
-    font-family: "FreightText Book";
+    font-family: "FreightText Book","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 article pre
@@ -1470,7 +1470,7 @@ article blockquote
     background: url(../images/line.svg) repeat-y 0 0, url(../images/ball8.svg) no-repeat 0 100%, url(../images/ball8.svg) no-repeat 0 0%;
     margin: 0px 180px 20px 152px;
     padding: 6px 0 0px 28px ;
-    font-family: "FreightText Book";
+    font-family: "FreightText Book","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 
@@ -1491,7 +1491,7 @@ article blockquote.big
 
 article blockquote
 {
-    font-family: "FreightText BookItalic";
+    font-family: "FreightText BookItalic","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 article ul
@@ -1545,7 +1545,7 @@ section.documentation
 {
     padding: 0;
     margin-top: 0;
-    font-family: "FreightText Book";
+    font-family: "FreightText Book","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     color: #464A50;
 }
 
@@ -1610,7 +1610,7 @@ section.documentation nav.main ul > ul
 
 section.documentation nav.main > ul > li
 {
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 22px;
     list-style: none;
     height: 40px;
@@ -1620,7 +1620,7 @@ section.documentation nav.main > ul > li
 
 section.documentation nav.main ul > ul > li
 {
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 16px;
     list-style: none;
     margin: 0 0 0 0px;
@@ -1646,7 +1646,7 @@ section.documentation h2
 {
     line-height: 40px;
     font-size: 35px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     margin-bottom: 20px;
 }
 
@@ -1677,7 +1677,7 @@ section.documentation h3
     margin: 40px 0px 0px 0px;
     padding: 0;
     font-size: 25px;
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 section.documentation img.full
@@ -1690,7 +1690,7 @@ section.documentation blockquote
     background: url(../images/line.svg) repeat-y 0 0, url(../images/ball8.svg) no-repeat 0 100%, url(../images/ball8.svg) no-repeat 0 0%;
     margin: 20px 0 20px -28px;
     padding: 0px 0 0px 28px ;
-    font-family: "FreightText BookItalic";
+    font-family: "FreightText BookItalic","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 }
 
 section.documentation section.entry h2
@@ -1725,7 +1725,7 @@ section.documentation nav.prev_next a
     padding-left: 40px;
     line-height: 40px;
     color: rgb(33, 163, 228);
-    font-family: "Avenir Next LT W01 Demi";
+    font-family: "Avenir Next LT W01 Demi","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
     font-size: 20px;
     -webkit-transition: color 0.15s ease-in-out;
     -moz-transition: color 0.15s ease-in-out;
@@ -1821,7 +1821,7 @@ section.examples a.download
     -webkit-border-radius: 6.5px 6.5px 6.5px 6.5px;
        -moz-border-radius: 6.5px 6.5px 6.5px 6.5px;
             border-radius: 6.5px 6.5px 6.5px 6.5px;
-    font-family: "AvenirNextLTW01-Regular";
+    font-family: "AvenirNextLTW01-Regular","Hiragino Sans GB", "Microsoft Yahei", "微软雅黑";
 
     background-color: rgba(33, 163, 228, 0);
 
